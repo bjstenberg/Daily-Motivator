@@ -19,7 +19,7 @@ if day_of_week == 3:
         random_quote = random.choice(my_quotes)
 
     print(random_quote)
-    # date_of_birth = dt.datetime(year= 1989, month=9, day=12, hour=2)
+    # date_of_birth = dt.datetime(year= 1999, month=9, day=12, hour=2)
     # print(date_of_birth)
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
     # Transport Layer Security - TLS
