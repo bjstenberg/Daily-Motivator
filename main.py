@@ -5,8 +5,8 @@ import datetime as dt
 
 # SMTP = Simple Mail Transfer Protocol, all emailproviders have different SMTP codes.
 
-MY_EMAIL = "stenberg.p.b@gmail.com"
-MY_PASSWORD = "##ThebigbadbearGmail89"
+MY_EMAIL = "add your own"
+MY_PASSWORD = "add your own"
 
 # Current date and time
 now = dt.datetime.now()
@@ -30,8 +30,8 @@ if day_of_week == 3:
         # Added encode UTF-8 to be able to send with Å Ä and Ö
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs="aka_bps@hotmail.com",
+            to_addrs="add your own",
             msg=f"Subject: Daily Motivator!\n\nThis is your daily motivation!\n{random_quote}")
-        #   msg="Subject: Älskling!\n\nJag löste det så jag kan skicka med svenska bokstäver!.encode("utf-8"))
+        #   msg="Subject: Hallå!\n\nJag löste det så jag kan skicka med svenska bokstäver!.encode("utf-8"))
 
 connection.close()
